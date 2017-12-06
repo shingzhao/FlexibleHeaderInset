@@ -32,6 +32,5 @@ class ListViewController: UIViewController {
 
     view.insertSubview(detailViewController.view, at: 0)
     appBar.headerViewController.headerView.trackingScrollView = detailViewController.collectionView
-    detailViewController.collectionView?.backgroundColor = UIColor.blue.withAlphaComponent(0.5)
   }
 }

@@ -1,0 +1,6 @@
+framework module Pods_FlexibleHeaderInset {
+  umbrella header "Pods-FlexibleHeaderInset-umbrella.h"
+
+  export *
+  module * { export * }
+}
